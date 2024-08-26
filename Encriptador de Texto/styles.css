@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Megrim;
+}
+
+#headerContainer {
+  border: 1px solid;
+  text-align: center;
+}
+
+#mainContainer {
+  border: 1px solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100vh;
+}
+
+#wholeContainer {
+  border: 1px solid;
+  margin: 25px;
+}
+
+.textInput {
+  display: flex;
+  margin: 30px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.textInput textarea {
+  width: 50vh;
+  height: 50vh;
+  font-size: 30px;
+}
+
+.buttons {
+  height: fit-content;
+  width: 50vh;
+  padding: 5px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons button {
+  font-family: Megrim;
+  font-size: 25px;
+  background-color: black;
+  color: white;
+  border: 1px solid;
+  border-radius: 25px;
+}
+
+.buttons :hover {
+  cursor: pointer;
+  border: 1px solid greenyellow;
+  color: greenyellow;
+}
+
+.message {
+  border: 1px solid;
+  height: fit-content;
+  width: fit-content;
+  margin: 10px;
+}
+
+#messageContainer {
+  border: 1px solid;
+  height: 45vh;
+  width: 35vh;
+}
